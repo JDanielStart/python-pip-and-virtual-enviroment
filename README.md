@@ -23,6 +23,7 @@ You should move in terminal on file project that you want to change, for example
 ```sh
 git clone
 cd app
+python3 -m venv env
 source env/scripts/activate
 pip3 install -r requirements.txt
 ```
